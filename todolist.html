@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todolist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>todos</h1>
+    <form id="form">
+        <input type="text" class="input" id="input" placeholder="输入你的任务吧！" autocomplete="off">
+        <ul class="todos" id="todos"></ul>
+    </form>
+    <input type="text" class="input search" id="search" placeholder="搜索任务..." autocomplete="off">
+    <small>左键划去任务，右键删除任务<br>再次点击划去的任务会回到没有划去的状态<br>
+        回车键创建新任务<br>使用搜索框搜索后，如果上方任务栏出现这个，就是存在该任务。搜索完毕后清空搜索栏即可回到原界面</small>
+    <script src="script.js"></script>
+</body>
+</html>
